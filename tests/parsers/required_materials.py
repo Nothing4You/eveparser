@@ -9,7 +9,7 @@ from tests import TableTestGroup
 
 
 REQUIRED_MATERIALS_TABLE = TableTestGroup(parse_required_materials)
-REQUIRED_MATERIALS_TABLE.addTest('9'584'701 x Tritanium',
+REQUIRED_MATERIALS_TABLE.addTest("9'584'701 x Tritanium",
     ([{'name': 'Tritanium', 'quantity': 9584701}], []))
 
 REQUIRED_MATERIALS_TABLE.addTest(
