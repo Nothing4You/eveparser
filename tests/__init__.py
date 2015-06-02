@@ -4,8 +4,6 @@ tests
 Tests and test helpers for eveparser
 
 """
-from __future__ import print_function
-
 import inspect
 import unittest
 

@@ -144,9 +144,9 @@ Destroyed items:
 
 Shock 'Limos' Citadel Torpedo Bay I, Qty: 2
 ''', ({'destroyed': [{'location': None,
-                      'name': u"Shock 'Limos' Citadel Torpedo Bay I",
+                      'name': "Shock 'Limos' Citadel Torpedo Bay I",
                       'quantity': 2}],
        'dropped': [],
        'involved': [],
-       'time': u'2014.01.25 14:30',
-       'victim': {u'victim': u'Some poor victim'}}, []))
+       'time': '2014.01.25 14:30',
+       'victim': {'victim': 'Some poor victim'}}, []))

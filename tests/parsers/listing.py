@@ -33,13 +33,13 @@ LISTING_TABLE.add_test(
 7'230 x Zydrine
 3'010 x Megacyte''',
     ([
-        {'name': u'Isogen',    'quantity':  149580},
-        {'name': u'Megacyte',  'quantity':    3010},
-        {'name': u'Mexallon',  'quantity':  546300},
-        {'name': u'Nocxium',   'quantity':   32410},
-        {'name': u'Pyerite',   'quantity': 2036800},
-        {'name': u'Tritanium', 'quantity': 9584701},
-        {'name': u'Zydrine',   'quantity':    7230},
+        {'name': 'Isogen',    'quantity':  149580},
+        {'name': 'Megacyte',  'quantity':    3010},
+        {'name': 'Mexallon',  'quantity':  546300},
+        {'name': 'Nocxium',   'quantity':   32410},
+        {'name': 'Pyerite',   'quantity': 2036800},
+        {'name': 'Tritanium', 'quantity': 9584701},
+        {'name': 'Zydrine',   'quantity':    7230},
     ], []))
 LISTING_TABLE.add_test("Minmatar Shuttle x 12'000",
                        ([{'name': 'Minmatar Shuttle', 'quantity': 12000}], []))

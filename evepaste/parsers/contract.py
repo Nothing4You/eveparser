@@ -51,6 +51,6 @@ def parse_contract(lines):
 
     result2 = [{'name': name,
                 'quantity': quantity,
-                'type': _type} for (name, _type), quantity in items2.items()]
+                'type': _type} for (name, _type), quantity in list(items2.items())]
 
     return result + result2, bad_lines2
