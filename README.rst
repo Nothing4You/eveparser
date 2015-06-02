@@ -1,7 +1,7 @@
 Eve Paste
 =========
-.. image:: https://api.travis-ci.org/evepraisal/eveparser.png
-    :target: https://travis-ci.org/evepraisal/eveparser
+.. image:: https://api.travis-ci.org/Nothing4You/eveparser.png
+    :target: https://travis-ci.org/Nothing4You/eveparser
 
 A Python library to help parse various things that are copy/pastable from the Eve Online UI.
 
