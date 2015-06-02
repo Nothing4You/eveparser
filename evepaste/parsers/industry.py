@@ -1,5 +1,5 @@
 """
-evepaste.parsers.industry
+eveparser.parsers.industry
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 Parse listings for the industry interface.
 
@@ -7,7 +7,7 @@ Parse listings for the industry interface.
 from collections import defaultdict
 import re
 
-from evepaste.utils import regex_match_lines, f_int
+from eveparser.utils import regex_match_lines, f_int
 
 
 # 10 Cargo Scanner II

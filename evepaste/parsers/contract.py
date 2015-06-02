@@ -1,5 +1,5 @@
 """
-evepaste.parsers.contract
+eveparser.parsers.contract
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 Parse Contracts.
 
@@ -7,7 +7,7 @@ Parse Contracts.
 from collections import defaultdict
 import re
 
-from evepaste.utils import regex_match_lines, f_int
+from eveparser.utils import regex_match_lines, f_int
 
 
 CONTRACT_RE = re.compile(r"""^([\S ]*)\t     # name

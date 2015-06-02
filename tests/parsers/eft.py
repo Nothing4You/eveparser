@@ -4,8 +4,8 @@ tests.parsers.eft
 EFT table tests
 
 """
-from evepaste import parse_eft
-from evepaste.exceptions import Unparsable
+from eveparser import parse_eft
+from eveparser.exceptions import Unparsable
 from tests import TableTestGroup
 
 EFT_TABLE = TableTestGroup(parse_eft)

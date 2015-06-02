@@ -4,7 +4,7 @@ tests.parsers.planetary_interaction
 planetary interaction list table tests
 
 """
-from evepaste import parse_pi
+from eveparser import parse_pi
 from tests import TableTestGroup
 
 

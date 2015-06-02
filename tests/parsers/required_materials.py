@@ -4,7 +4,7 @@ tests.parsers.required_materials
 Blueprint Info required materials table tests
 
 """
-from evepaste import parse_listing
+from eveparser import parse_listing
 from tests import TableTestGroup
 
 

@@ -4,7 +4,7 @@ tests.parsers.dscan
 D-Scan table tests
 
 """
-from evepaste import parse_dscan
+from eveparser import parse_dscan
 from tests import TableTestGroup
 
 

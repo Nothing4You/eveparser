@@ -8,7 +8,7 @@ except ImportError:
     print("    http://python-distribute.org/distribute_setup.py")
     sys.exit(1)
 
-from evepaste import __version__
+from eveparser import __version__
 
 
 description = ("A Python library to help parse various things that are "
@@ -24,13 +24,13 @@ else:
     long_description = description
 
 setup(
-    name='evepaste',
+    name='eveparser',
     version=__version__,
     description=description,
     long_description=long_description,
     author='Kevin McDonald',
     author_email='k3vinmcdonald@gmail.com',
-    packages=['evepaste', 'evepaste.parsers'],
+    packages=['eveparser', 'eveparser.parsers'],
     license='MIT',
     zip_safe=False,
     test_suite='nose.collector',

@@ -4,7 +4,7 @@ tests.parsers.industry
 Industry table tests
 
 """
-from evepaste import parse_industry
+from eveparser import parse_industry
 from tests import TableTestGroup
 
 

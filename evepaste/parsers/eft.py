@@ -1,5 +1,5 @@
 """
-evepaste.parsers.eft
+eveparser.parsers.eft
 ~~~~~~~~~~~~~~~~~~~~
 Parse EFT blocks.
 
@@ -7,9 +7,9 @@ Parse EFT blocks.
 import re
 from collections import defaultdict
 
-from evepaste.exceptions import Unparsable
-from evepaste.utils import regex_match_lines
-from evepaste.parsers.listing import parse_listing
+from eveparser.exceptions import Unparsable
+from eveparser.utils import regex_match_lines
+from eveparser.parsers.listing import parse_listing
 
 # [Rifter, Title] | [Rifter,Title]
 EFT_LIST_RE = re.compile(r"^([\S ]+), ?([\S ]+)$")

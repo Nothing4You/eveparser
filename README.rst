@@ -1,10 +1,10 @@
 Eve Paste
 =========
-.. image:: https://api.travis-ci.org/evepraisal/evepaste.png
-    :target: https://travis-ci.org/evepraisal/evepaste
+.. image:: https://api.travis-ci.org/evepraisal/eveparser.png
+    :target: https://travis-ci.org/evepraisal/eveparser
         
-.. image:: https://landscape.io/github/evepraisal/evepaste/master/landscape.png
-    :target: https://landscape.io/github/evepraisal/evepaste/master
+.. image:: https://landscape.io/github/evepraisal/eveparser/master/landscape.png
+    :target: https://landscape.io/github/evepraisal/eveparser/master
 
 A Python library to help parse various things that are copy/pastable from the Eve Online UI.
 
@@ -20,4 +20,4 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 CCP Copyright Notice
 ====================
-EVE Online and the EVE logo are the registered trademarks of CCP hf. All rights are reserved worldwide. All other trademarks are the property of their respective owners. EVE Online, the EVE logo, EVE and all associated logos and designs are the intellectual property of CCP hf. All artwork, screenshots, characters, vehicles, storylines, world facts or other recognizable features of the intellectual property relating to these trademarks are likewise the intellectual property of CCP hf. CCP hf. has granted permission to evepaste to use EVE Online and all associated logos and designs for promotional and information purposes on its website but does not endorse, and is not in any way affiliated with, evepaste. CCP is in no way responsible for the content on or functioning of this website, nor can it be liable for any damage arising from the use of this website.
+EVE Online and the EVE logo are the registered trademarks of CCP hf. All rights are reserved worldwide. All other trademarks are the property of their respective owners. EVE Online, the EVE logo, EVE and all associated logos and designs are the intellectual property of CCP hf. All artwork, screenshots, characters, vehicles, storylines, world facts or other recognizable features of the intellectual property relating to these trademarks are likewise the intellectual property of CCP hf. CCP hf. has granted permission to eveparser to use EVE Online and all associated logos and designs for promotional and information purposes on its website but does not endorse, and is not in any way affiliated with, eveparser. CCP is in no way responsible for the content on or functioning of this website, nor can it be liable for any damage arising from the use of this website.

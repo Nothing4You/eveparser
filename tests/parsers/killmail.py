@@ -4,7 +4,7 @@ tests.parsers.killmail
 Killmail table tests
 
 """
-from evepaste import parse_killmail, Unparsable
+from eveparser import parse_killmail, Unparsable
 from tests import TableTestGroup
 
 

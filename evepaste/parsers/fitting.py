@@ -1,11 +1,11 @@
 """
-evepaste.parsers.fitting
+eveparser.parsers.fitting
 ~~~~~~~~~~~~~~~~~~~~~~~~
 Parse saved fittings.
 
 """
-from evepaste.exceptions import Unparsable
-from evepaste.parsers.listing import parse_listing
+from eveparser.exceptions import Unparsable
+from eveparser.parsers.listing import parse_listing
 
 
 FITTING_BLACKLIST = ['High power',

@@ -4,7 +4,7 @@ tests.parsers.cargo_scan
 Cargo Scan table tests
 
 """
-from evepaste import parse_cargo_scan
+from eveparser import parse_cargo_scan
 from tests import TableTestGroup
 
 

@@ -4,7 +4,7 @@ tests.parsers.chat
 Chat transcript table tests
 
 """
-from evepaste import parse_chat
+from eveparser import parse_chat
 from tests import TableTestGroup
 
 

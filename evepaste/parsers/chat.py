@@ -1,12 +1,12 @@
 """
-evepaste.parsers.chat
+eveparser.parsers.chat
 ~~~~~~~~~~~~~~~~~~~~~
 Parse Chat transcripts.
 
 """
 import re
 
-from evepaste.utils import regex_match_lines, f_int
+from eveparser.utils import regex_match_lines, f_int
 
 CHAT_RE = re.compile(r"^(\[(\d\d:\d\d:\d\d)\] )?([\S ]+?) > (.*)$")
 CHAT_ITEM_RE = re.compile(r"<url=showinfo:([\d]+?)>([\S ]+?)</url>")

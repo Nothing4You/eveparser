@@ -1,4 +1,4 @@
-from evepaste import parse
+from eveparser import parse
 from tests import parsers, TableChecker
 
 ALL_TABLES = [

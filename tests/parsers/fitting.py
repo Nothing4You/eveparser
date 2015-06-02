@@ -4,7 +4,7 @@ tests.parsers.fitting
 Fitting listing table tests
 
 """
-from evepaste import parse_fitting
+from eveparser import parse_fitting
 from tests import TableTestGroup
 
 

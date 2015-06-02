@@ -1,7 +1,7 @@
 """
 tests
 ~~~~~
-Tests and test helpers for evepaste
+Tests and test helpers for eveparser
 
 """
 from __future__ import print_function

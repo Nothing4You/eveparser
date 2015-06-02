@@ -4,7 +4,7 @@ tests.parsers.view_contents
 View Contents list table tests
 
 """
-from evepaste import parse_view_contents
+from eveparser import parse_view_contents
 from tests import TableTestGroup
 
 

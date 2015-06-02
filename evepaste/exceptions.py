@@ -1,5 +1,5 @@
 """
-evepaste.exceptions
+eveparser.exceptions
 ~~~~~~~~~~~~~~~~~~~
 
 """

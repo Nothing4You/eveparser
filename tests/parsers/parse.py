@@ -4,7 +4,7 @@ tests.parsers.parse
 Parse table tests
 
 """
-from evepaste import parse, Unparsable
+from eveparser import parse, Unparsable
 from tests import TableTestGroup
 
 

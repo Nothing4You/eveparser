@@ -4,7 +4,7 @@ tests.parsers.contract
 Contract table tests
 
 """
-from evepaste import parse_contract
+from eveparser import parse_contract
 from tests import TableTestGroup
 
 

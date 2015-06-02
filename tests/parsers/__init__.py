@@ -1,7 +1,7 @@
 """
-evepaste.tests.parsers
+eveparser.tests.parsers
 ~~~~~~~~~~~~~~~~~~~~~~
-Contains all the table-based tests for evepaste
+Contains all the table-based tests for eveparser
 
 """
 from tests.parsers.assets import ASSET_TABLE

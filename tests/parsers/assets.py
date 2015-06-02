@@ -4,7 +4,7 @@ tests.parsers.assets
 Asset list table tests
 
 """
-from evepaste import parse_assets
+from eveparser import parse_assets
 from tests import TableTestGroup
 
 

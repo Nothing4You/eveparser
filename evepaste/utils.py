@@ -1,7 +1,7 @@
 """
-evepaste.utils
+eveparser.utils
 ~~~~~~~~~~~~~~
-Utilities and re-usable helper functions for evepaste
+Utilities and re-usable helper functions for eveparser
 
 """
 from functools import wraps

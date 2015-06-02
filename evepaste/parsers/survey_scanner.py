@@ -1,12 +1,12 @@
 """
-evepaste.parsers.survey_scanner
+eveparser.parsers.survey_scanner
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Parse survey scanner results.
 
 """
 import re
 
-from evepaste.utils import regex_match_lines, f_int
+from eveparser.utils import regex_match_lines, f_int
 
 SURVEY_SCANNER_RE = re.compile(r"""^([\S ]+)\t           # name
                                     ([\d,'\.]+)\t        # quantity

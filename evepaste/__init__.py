@@ -1,15 +1,15 @@
 """
-evepaste
+eveparser
 ~~~~~~~~
 A library to help parse out copy/pastable data from Eve Online.
 
 Usage:
 
-    >>> import evepaste
-    >>> evepaste.parse('10 Cargo Scanner II')
+    >>> import eveparser
+    >>> eveparser.parse('10 Cargo Scanner II')
     ('cargo_scan', [{'name': 'Cargo Scanner II', 'quantity': 10}], [])
 
-    >>> evepaste.parse('''[Rifter, Fleet Tackle]
+    >>> eveparser.parse('''[Rifter, Fleet Tackle]
     ... Nanofiber Internal Structure I
     ... Nanofiber Internal Structure I
     ... Overdrive Injector System I
@@ -36,9 +36,9 @@ Usage:
       'ship': 'Rifter'},
      [])
 """
-from evepaste import parsers
-from evepaste.exceptions import Unparsable
-from evepaste.utils import split_and_strip, unpack_string
+from eveparser import parsers
+from eveparser.exceptions import Unparsable
+from eveparser.utils import split_and_strip, unpack_string
 
 
 # Add the ability for each supported parser take a string instead of a list of

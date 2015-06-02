@@ -1,5 +1,5 @@
 """
-evepaste.parsers.assets
+eveparser.parsers.assets
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Parse listings including cargo scan results and normal human-readable lists.
 
@@ -7,7 +7,7 @@ Parse listings including cargo scan results and normal human-readable lists.
 from collections import defaultdict
 import re
 
-from evepaste.utils import regex_match_lines, f_int
+from eveparser.utils import regex_match_lines, f_int
 
 
 # 10 x Cargo Scanner II | 10x Cargo Scanner II | 10 Cargo Scanner II

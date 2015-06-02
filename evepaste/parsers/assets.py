@@ -1,12 +1,12 @@
 """
-evepaste.parsers.assets
+eveparser.parsers.assets
 ~~~~~~~~~~~~~~~~~~~~~~~
 Parse eve online asset lists. This also invludes inventory listings.
 
 """
 import re
 
-from evepaste.utils import regex_match_lines, f_int
+from eveparser.utils import regex_match_lines, f_int
 
 ASSET_LIST_RE = re.compile(r"""^([\S ]*)                           # name
                                 \t([\d,'\.]*)                      # quantity

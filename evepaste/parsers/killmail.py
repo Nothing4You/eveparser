@@ -1,13 +1,13 @@
 """
-evepaste.parsers.killmail
+eveparser.parsers.killmail
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 Parse killmail.
 
 """
 import re
 
-from evepaste.exceptions import Unparsable
-from evepaste.utils import f_int
+from eveparser.exceptions import Unparsable
+from eveparser.utils import f_int
 
 
 TIME_RE = re.compile(r"^(\d\d\d\d.\d\d.\d\d \d\d:\d\d(:\d\d)?)$")

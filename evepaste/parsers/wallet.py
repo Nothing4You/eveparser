@@ -1,12 +1,12 @@
 """
-evepaste.parsers.wallet
+eveparser.parsers.wallet
 ~~~~~~~~~~~~~~~~~~~~~~~
 Parse wallet results.
 
 """
 import re
 
-from evepaste.utils import regex_match_lines, f_int
+from eveparser.utils import regex_match_lines, f_int
 
 JOURNAL_RE = re.compile(r"""^(\d\d\d\d.\d\d.\d\d\ \d\d:\d\d:\d\d)\t  # time
                              ([\S ]+)\t                # transaction type

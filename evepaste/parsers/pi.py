@@ -1,12 +1,12 @@
 """
-evepaste.parsers.planetary_interaction
+eveparser.parsers.planetary_interaction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Parse planetary interaction results.
 
 """
 import re
 
-from evepaste.utils import regex_match_lines
+from eveparser.utils import regex_match_lines
 
 PI_RE = re.compile(r"""^([\d,'\.]+)\t            # quantity
                         ([\S ]+)\t               # name

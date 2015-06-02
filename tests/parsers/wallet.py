@@ -4,7 +4,7 @@ tests.parsers.wallet
 Loot history table tests
 
 """
-from evepaste import parse_wallet
+from eveparser import parse_wallet
 from tests import TableTestGroup
 
 

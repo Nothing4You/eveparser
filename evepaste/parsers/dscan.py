@@ -1,12 +1,12 @@
 """
-evepaste.parsers.dscan
+eveparser.parsers.dscan
 ~~~~~~~~~~~~~~~~~~~~~~
 Parse d-scan results.
 
 """
 import re
 
-from evepaste.utils import regex_match_lines
+from eveparser.utils import regex_match_lines
 
 
 DSCAN_LIST_RE = re.compile(r"""^([\S ]*)\t                  # item name

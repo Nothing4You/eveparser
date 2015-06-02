@@ -4,7 +4,7 @@ tests.parsers.survey_scanner
 survey scanner list table tests
 
 """
-from evepaste import parse_survey_scanner
+from eveparser import parse_survey_scanner
 from tests import TableTestGroup
 
 

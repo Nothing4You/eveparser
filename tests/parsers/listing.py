@@ -4,7 +4,7 @@ tests.parsers.listing
 Listing table tests
 
 """
-from evepaste import parse_listing
+from eveparser import parse_listing
 from tests import TableTestGroup
 
 

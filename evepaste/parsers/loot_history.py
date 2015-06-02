@@ -1,12 +1,12 @@
 """
-evepaste.parsers.loot_history
+eveparser.parsers.loot_history
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Parse fleet loot history.
 
 """
 import re
 
-from evepaste.utils import regex_match_lines, f_int
+from eveparser.utils import regex_match_lines, f_int
 
 LOOT_HIST_RE = re.compile(
     r"(\d\d:\d\d:\d\d) ([\S ]+) has looted ([\d,'\.]+) x ([\S ]+)$")

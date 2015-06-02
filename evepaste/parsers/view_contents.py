@@ -1,5 +1,5 @@
 """
-evepaste.parsers.view_contents
+eveparser.parsers.view_contents
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Parse results from 'View Contents' of a ship.
 
@@ -7,7 +7,7 @@ Parse results from 'View Contents' of a ship.
 from collections import defaultdict
 import re
 
-from evepaste.utils import regex_match_lines, f_int
+from eveparser.utils import regex_match_lines, f_int
 
 VIEWCONT_LIST_RE = re.compile(r"""^([\S ]*)\t
                                   ([\S ]*)\t
