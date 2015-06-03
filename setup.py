@@ -46,6 +46,8 @@ setup(
         'Operating System :: POSIX',
         'Programming Language :: Python',
         'Topic :: Games/Entertainment',
+        'Programming Language :: Python :: 3.4',
+        'Programming Language :: Python :: 3 :: Only',
         ],
     bugtrack_url='https://github.com/Nothing4You/eveparser/issues',
 )
